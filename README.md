@@ -1,7 +1,7 @@
 # Stuff I am learning
 
 ## C
-![In progress](https://img.shields.io/badge/>-in%20progress-yellow.svg) [Learn C The Hard Way](http://c.learncodethehardway.org/book/)
+(http://c.learncodethehardway.org/book/) ![In progress](https://img.shields.io/badge/>-in%20progress-yellow.svg) [Learn C The Hard Way]
 ## NodeJS
 [The Node Beginner Book](http://www.nodebeginner.org/) ![In progress](https://img.shields.io/badge/>-in%20progress-yellow.svg)
 ## SDL
