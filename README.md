@@ -7,5 +7,5 @@
 - SDL
   - [Beginning Game Programming v2.0](http://lazyfoo.net/tutorials/SDL/index.php) ![In progress](https://img.shields.io/badge/status-in%20progress-yellow.svg) 
 - Web
-  - [Trello clone with Phoenix and React](https://blog.diacode.com/trello-clone-with-phoenix-and-react-pt-1) ![Not started](https://img.shields.io/badge/status-not%20started-blue.svg)
+  - [Trello clone with Phoenix and React](https://blog.diacode.com/trello-clone-with-phoenix-and-react-pt-1) ![Not started](https://img.shields.io/badge/-not%20started-blue.svg)
 
