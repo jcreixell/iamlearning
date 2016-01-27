@@ -3,6 +3,8 @@
 ## Languages
 [Learn C The Hard Way](http://c.learncodethehardway.org/book/) ![In progress](https://img.shields.io/badge/status-ongoing-yellow.svg)
 
+[Learn you some Erlang](http://learnyousomeerlang.com/content) ![Not started](https://img.shields.io/badge/status-planned-blue.svg)
+
 ## Games Programming
 [Beginning Game Programming v2.0](http://lazyfoo.net/tutorials/SDL/index.php) ![In progress](https://img.shields.io/badge/status-ongoing-yellow.svg)
 
