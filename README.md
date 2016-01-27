@@ -1,5 +1,8 @@
 # Stuff I am learning
 
+## Tools
+[Autotools](https://www.lrde.epita.fr/~adl/autotools.html) ![In progress](https://img.shields.io/badge/status-ongoing-yellow.svg)
+
 ## Languages
 [Learn C The Hard Way](http://c.learncodethehardway.org/book/) ![In progress](https://img.shields.io/badge/status-ongoing-yellow.svg)
 
