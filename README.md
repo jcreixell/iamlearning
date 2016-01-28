@@ -8,7 +8,7 @@
 
 [Learn you some Erlang](http://learnyousomeerlang.com/content) ![Not started](https://img.shields.io/badge/status-planned-blue.svg)
 
-## Games Programming
+## Games
 [Beginning Game Programming v2.0](http://lazyfoo.net/tutorials/SDL/index.php) ![In progress](https://img.shields.io/badge/status-ongoing-yellow.svg)
 
 ## Web
