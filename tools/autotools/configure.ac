@@ -9,6 +9,7 @@ if test "$TAR" = :; then
 fi
 AC_DEFINE([SOMEVAR], ["jorge"], [Set some var, just for fun])
 AC_SUBST([MAKEFILEVAR], [something])
+AC_CHECK_HEADERS([SDL2/SDL.h])
 AC_CONFIG_HEADERS([config.h])
 AC_CONFIG_FILES([Makefile src/Makefile])
 AC_OUTPUT
