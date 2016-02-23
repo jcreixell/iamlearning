@@ -1,17 +1,19 @@
 # Stuff I am learning
 
 ## Tools
-[Autotools](https://www.lrde.epita.fr/~adl/autotools.html) ![In progress](https://img.shields.io/badge/status-ongoing-yellow.svg)
+[Autotools](https://www.lrde.epita.fr/~adl/autotools.html)
 
 ## Languages
-[Learn C The Hard Way](http://c.learncodethehardway.org/book/) ![In progress](https://img.shields.io/badge/status-ongoing-yellow.svg)
+[Learn C The Hard Way](http://c.learncodethehardway.org/book/)
 
-[Learn you some Erlang](http://learnyousomeerlang.com/content) ![Not started](https://img.shields.io/badge/status-planned-blue.svg)
+[Learn you some Erlang](http://learnyousomeerlang.com/content)
+
+[Beginning perl](http://learn.perl.org/books/beginning-perl/)
 
 ## Games
-[Beginning Game Programming v2.0](http://lazyfoo.net/tutorials/SDL/index.php) ![In progress](https://img.shields.io/badge/status-ongoing-yellow.svg)
+[Beginning Game Programming v2.0](http://lazyfoo.net/tutorials/SDL/index.php)
 
 ## Web
-[The Node Beginner Book](http://www.nodebeginner.org/) ![In progress](https://img.shields.io/badge/status-ongoing-yellow.svg)
+[The Node Beginner Book](http://www.nodebeginner.org/)
 
-[Trello clone with Phoenix and React](https://blog.diacode.com/trello-clone-with-phoenix-and-react-pt-1) ![Not started](https://img.shields.io/badge/status-planned-blue.svg)
+[Trello clone with Phoenix and React](https://blog.diacode.com/trello-clone-with-phoenix-and-react-pt-1)
