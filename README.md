@@ -10,8 +10,10 @@
 
 [Beginning perl](http://learn.perl.org/books/beginning-perl/)
 
-## Games
+## Frameworks
 [Beginning Game Programming v2.0](http://lazyfoo.net/tutorials/SDL/index.php)
+
+[Spark](http://spark.apache.org/docs/latest/quick-start.html)
 
 ## Web
 [The Node Beginner Book](http://www.nodebeginner.org/)
