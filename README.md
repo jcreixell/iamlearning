@@ -8,10 +8,13 @@
 
 [Learn you some Erlang](http://learnyousomeerlang.com/content)
 
-[Beginning perl](http://learn.perl.org/books/beginning-perl/)
+[The Rust Programming Language](https://doc.rust-lang.org/book/README.html)
+
 
 ## Frameworks
 [Beginning Game Programming v2.0](http://lazyfoo.net/tutorials/SDL/index.php)
+
+[Finagle](https://twitter.github.io/finagle/)
 
 [Spark](http://spark.apache.org/docs/latest/quick-start.html)
 
