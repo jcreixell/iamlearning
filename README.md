@@ -22,3 +22,5 @@
 [The Node Beginner Book](http://www.nodebeginner.org/)
 
 [Trello clone with Phoenix and React](https://blog.diacode.com/trello-clone-with-phoenix-and-react-pt-1)
+
+[Webpack](https://webpack.github.io/docs/tutorials/getting-started/)
