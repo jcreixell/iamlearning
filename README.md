@@ -24,3 +24,5 @@
 [Trello clone with Phoenix and React](https://blog.diacode.com/trello-clone-with-phoenix-and-react-pt-1)
 
 [Webpack](https://webpack.github.io/docs/tutorials/getting-started/)
+
+[Netty in Action](https://livebook.manning.com/#!/book/netty-in-action)
