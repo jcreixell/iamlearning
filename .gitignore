@@ -31,8 +31,10 @@
 # Debug files
 *.dSYM/
 *.class
+
 *.project
 .classpath
 .settings
 .idea
+
 target/
