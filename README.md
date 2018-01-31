@@ -10,6 +10,8 @@
 
 [The Rust Programming Language](https://doc.rust-lang.org/book/README.html)
 
+## Libraries
+[Tokio](https://tokio.rs/docs/getting-started)
 
 ## Frameworks
 [Beginning Game Programming v2.0](http://lazyfoo.net/tutorials/SDL/index.php)
