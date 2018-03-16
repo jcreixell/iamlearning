@@ -20,6 +20,8 @@
 
 [Spark](http://spark.apache.org/docs/latest/quick-start.html)
 
+[gRPC](https://grpc.io/docs/tutorials/basic/go.html)
+
 ## Web
 [The Node Beginner Book](http://www.nodebeginner.org/)
 
