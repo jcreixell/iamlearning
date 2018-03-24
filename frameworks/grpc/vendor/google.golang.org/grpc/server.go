@@ -777,15 +777,13 @@ func (s *Server) sendResponse(t transport.ServerTransport, stream *transport.Str
 func (s *Server) processUnaryRPC(t transport.ServerTransport, stream *transport.Stream, srv *service, md *MethodDesc, trInfo *traceInfo) (err error) {
 	sh := s.opts.statsHandler
 	if sh != nil {
-		beginTime := time.Now()
 		begin := &stats.Begin{
-			BeginTime: beginTime,
+			BeginTime: time.Now(),
 		}
 		sh.HandleRPC(stream.Context(), begin)
 		defer func() {
 			end := &stats.End{
-				BeginTime: beginTime,
-				EndTime:   time.Now(),
+				EndTime: time.Now(),
 			}
 			if err != nil && err != io.EOF {
 				end.Error = toRPCErr(err)
@@ -924,7 +922,7 @@ func (s *Server) processUnaryRPC(t transport.ServerTransport, stream *transport.
 		appStatus, ok := status.FromError(appErr)
 		if !ok {
 			// Convert appErr if it is not a grpc status error.
-			appErr = status.Error(codes.Unknown, appErr.Error())
+			appErr = status.Error(convertCode(appErr), appErr.Error())
 			appStatus, _ = status.FromError(appErr)
 		}
 		if trInfo != nil {
@@ -979,15 +977,13 @@ func (s *Server) processUnaryRPC(t transport.ServerTransport, stream *transport.
 func (s *Server) processStreamingRPC(t transport.ServerTransport, stream *transport.Stream, srv *service, sd *StreamDesc, trInfo *traceInfo) (err error) {
 	sh := s.opts.statsHandler
 	if sh != nil {
-		beginTime := time.Now()
 		begin := &stats.Begin{
-			BeginTime: beginTime,
+			BeginTime: time.Now(),
 		}
 		sh.HandleRPC(stream.Context(), begin)
 		defer func() {
 			end := &stats.End{
-				BeginTime: beginTime,
-				EndTime:   time.Now(),
+				EndTime: time.Now(),
 			}
 			if err != nil && err != io.EOF {
 				end.Error = toRPCErr(err)
@@ -1069,7 +1065,7 @@ func (s *Server) processStreamingRPC(t transport.ServerTransport, stream *transp
 			case transport.StreamError:
 				appStatus = status.New(err.Code, err.Desc)
 			default:
-				appStatus = status.New(codes.Unknown, appErr.Error())
+				appStatus = status.New(convertCode(appErr), appErr.Error())
 			}
 			appErr = appStatus.Err()
 		}
