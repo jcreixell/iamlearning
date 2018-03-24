@@ -14,8 +14,6 @@
 [Tokio](https://tokio.rs/docs/getting-started)
 
 ## Frameworks
-[Beginning Game Programming v2.0](http://lazyfoo.net/tutorials/SDL/index.php)
-
 [Finagle](https://twitter.github.io/finagle/)
 
 [Spark](http://spark.apache.org/docs/latest/quick-start.html)
@@ -30,3 +28,8 @@
 [Webpack](https://webpack.github.io/docs/tutorials/getting-started/)
 
 [Netty in Action](https://livebook.manning.com/#!/book/netty-in-action)
+
+## Games
+[Beginning Game Programming v2.0](http://lazyfoo.net/tutorials/SDL/index.php)
+
+[Pixel](https://github.com/faiface/pixel/wiki)
