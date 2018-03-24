@@ -3,6 +3,7 @@ package main
 import (
 	"image"
 	"os"
+	"time"
 
 	_ "image/png"
 
@@ -45,10 +46,24 @@ func run() {
 		panic(err)
 	}
 
-	win.Clear(colornames.Greenyellow)
-	sprite.Draw(win, pixel.IM.Moved(win.Bounds().Center()))
+	win.SetSmooth(true)
 
+	angle := 0.0
+
+	last := time.Now()
 	for !win.Closed() {
+		dt := time.Since(last).Seconds()
+		last = time.Now()
+
+		angle += 3 * dt
+
+		win.Clear(colornames.Firebrick)
+
+		mat := pixel.IM
+		mat = mat.Rotated(pixel.ZV, angle)
+		mat = mat.Moved(win.Bounds().Center())
+		sprite.Draw(win, mat)
+
 		win.Update()
 	}
 }
